@@ -8,7 +8,6 @@
     }
 body{
    background-color: rgb(13, 21, 44);
-   height:45rem;
    background-image: url(https://app.svgator.com/assets/svgator.webapp/log-in-girl.svg);
    background-repeat: no-repeat;
    background-position: 20rem;
@@ -22,8 +21,9 @@ body{
 }
 h1{
     text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-weight: 650;
+    font-size: 1.7rem;
+    font-family: Poppins;
 }
 .formstyle{
     background-color: rgb(255, 255, 255);
@@ -57,7 +57,10 @@ border-radius: 0.5rem;
 color:rgb(126, 126, 126);
 font-weight: 500;
 font-size: 1.5rem;
-
+}
+.textview{
+    text-align: right;
+    padding-right:1.5rem;
 }
 .btn{
     height: 4rem;
@@ -76,4 +79,62 @@ font-size: 1.5rem;
 }
 .btn:hover{
     box-shadow:  0px 1px 3px 0.3px rgb(211, 211, 211);
+}
+footer{
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+@media(max-width:800px){
+    .header{
+           height:5rem;
+            width:100%;
+            background-color: rgb(216, 216, 216);
+            border-bottom:  0.08rem solid rgb(112, 112, 112);
+    }
+    .formstyle{
+        width:22rem;
+        height: 32rem;
+        margin:auto;
+        align-self: center;
+        margin-top: 7rem;
+        border-radius: 1.3rem;
+        box-shadow: none;
+        margin-left:0.7rem;
+    } 
+    .textview{
+        height:4rem ;
+        width:20rem;
+        margin: 2rem 0rem;
+        margin-left: 0.8rem;
+        border-radius: 0.7rem;
+    } 
+    .btn{
+        height: 3rem;
+        width: 3.5rem;
+        box-shadow:  1px 2px 5px 0.4px rgb(211, 211, 211);
+    } 
+    table{
+        margin:0rem;
+        margin-top: 0rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    body{
+        background-color: rgb(13, 21, 44);
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: none;
+     }
+     footer{
+         margin-top: 3rem;
+         text-align: center;
+         color: white;
+         font-family: Poppins;
+         font-weight: 500;
+         font-size: 1.2rem;
+     }
 }
