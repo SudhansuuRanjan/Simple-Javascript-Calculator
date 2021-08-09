@@ -1,2 +1,2 @@
 # Simple-Javascript-Calculator
-Not completed yet
+Now completed and working fine
